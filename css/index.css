@@ -1,0 +1,50 @@
+body{
+    background: beige;
+}
+ul.menu {
+    list-style: none;
+    width: 500px;
+    position: static;
+}
+
+
+.menu>li {
+    display: inline;
+    border: 1px lightgrey;
+    padding:3px;
+    background: beige;
+    margin-top:-1px;
+}
+
+li:hover {
+    border: none;
+    background: bisque;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    visibility: hidden;
+    position: absolute;
+}
+
+.menu>li:hover ul {
+    visibility: visible;
+    list-style: none;
+}
+
+ul.menu2 {
+    list-style: none;
+    visibility: hidden;
+}
+.menu2>li {
+    background: burlywood;
+
+}
+
+.menu2>li:hover{
+    background: blanchedalmond;
+}
